@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="lib" path="D:/Documentos/postgresql-42.3.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="src/postgresql-42.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/mysql-connector-java-8.0.27.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

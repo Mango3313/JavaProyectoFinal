@@ -23,7 +23,7 @@ public class Main {
 			usrDao.add(usr);
 
 			// read
-			User e = usrDao.getUser(1);
+			User e = usrDao.getUser(2);
 			// System.out.println(usrDao.getUser(1));
 			System.out.println(e.getU_id() + " " + e.getU_name() + " " + e.getU_address());
 
@@ -34,12 +34,17 @@ public class Main {
 			}
 
 			// update
-			User tempUser = usrDao.getUser(1);
+			User tempUser = usrDao.getUser(2);
 			tempUser.setU_address("Asgard");
 			usrDao.update(tempUser);
+			
+			List<User> ls1 = usrDao.getUsers();
+			for (User allUsr : ls1) {
+				System.out.println(allUsr);
+			}
 
 			// delete
-			usrDao.delete(1);
+			//usrDao.delete(1);
 		} catch (SQLException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

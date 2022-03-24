@@ -13,7 +13,7 @@ import com.util.DatabaseConnection;
 public class UserDaoImplementation implements UserDao {
 
 	// Singleton to obtain DB connection
-	static Connection con = DatabaseConnection.getConnection();
+	static Connection con = DatabaseConnection.getDBAdapter().getConnection();
 
 	// Perform Insert
 	@Override
