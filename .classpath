@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BankUserBuilder/src"/>
+	<classpathentry kind="src" path="ObserverTimer/src"/>
+	<classpathentry kind="src" path="SingletonDB/src"/>
+	<classpathentry kind="src" path="StrategyQueue/src"/>
+	<classpathentry kind="lib" path="SingletonDB/bin/postgresql-42.3.3.jar"/>
+	<classpathentry kind="output" path="BankUserBuilder/bin"/>
+</classpath>
